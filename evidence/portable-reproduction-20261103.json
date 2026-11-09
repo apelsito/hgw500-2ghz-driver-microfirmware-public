@@ -1,0 +1,9 @@
+{
+  "source_sha256": "b15bc955fba2fc3abc093affe62c9f7284a0b84d4f13f8ce55366488dc9aad8b",
+  "bytes": 32286,
+  "architecture": "8051:BE:16:default",
+  "code_base": "0x4000",
+  "hardware_accessed": false,
+  "source_unchanged": true,
+  "scope": "Static entry-seeded analysis. ROM and indirect targets remain incomplete."
+}

@@ -1,0 +1,82 @@
+INFO  Using log config file: jar:file:/opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /workspace/build/.config/ghidra/ghidra_12.1.3_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /workspace/build/.config/ghidra/ghidra_12.1.3_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (820 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3681 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 211 extension points (114 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /workspace/OpenMitraStar/HGW500/out/rtl8192ee-20261103/firmware-rea
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-native (HeadlessAnalyzer)  
+INFO  Creating project: /workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-native (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-native (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-code.bin (HeadlessAnalyzer)  
+INFO  Successfully applied "-loader-baseAddr" to "Base Address" (old: "null", new: "0x4000") (ProgramLoader)  
+INFO  Using Loader: Raw Binary (ProgramLoader)  
+INFO  Using Language/Compiler: 8051:BE:16:default:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni] (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: SeedRTL8192EE.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: /workspace/OpenMitraStar/HGW500/out/rtl8192ee-20261103/firmware-rea/SeedRTL8192EE.java (HeadlessAnalyzer)  
+INFO  SeedRTL8192EE.java> OM_RTL8192EE_SEEDED_8051_BASE_4000 (GhidraScript)  
+INFO  ANALYZING all memory and code: file:///workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-code.bin (HeadlessAnalyzer)  
+INFO  Packed database cache: /var/tmp/apelsito-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.325 secs
+    Apply Data Archives                        0.502 secs
+    Basic Constant Reference Analyzer          0.567 secs
+    Call Convention ID                         0.004 secs
+    Call-Fixup Installer                       0.007 secs
+    Create Function                            0.108 secs
+    Decompiler Switch Analysis                 0.010 secs
+    Demangler GNU                              0.104 secs
+    Disassemble Entry Points                   0.004 secs
+    Embedded Media                             0.015 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.021 secs
+    Non-Returning Functions - Discovered       0.077 secs
+    Shared Return Calls                        0.036 secs
+    Stack                                      0.351 secs
+    Subroutine References                      0.021 secs
+-----------------------------------------------------
+     Total Time   2 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-code.bin (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportRTL8192EE.java '/workspace/OpenMitraStar/HGW500/out/rtl8192ee-20261103/firmware-rea'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /workspace/OpenMitraStar/HGW500/out/rtl8192ee-20261103/firmware-rea/ExportRTL8192EE.java (HeadlessAnalyzer)  
+INFO  ExportRTL8192EE.java> OM_RTL8192EE_EXPORTED functions=138 instructions=5217 (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-code.bin (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-code.bin (HeadlessAnalyzer)  
+INFO  /rtl8192ee-code.bin: file created (apelsito) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /rtl8192ee-code.bin (rtl8192ee-native:/rtl8192ee-code.bin) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

@@ -1,0 +1,34 @@
+{
+  "command": [
+    "/usr/local/bin/rea",
+    "analyze",
+    "/workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-code.bin",
+    "--target-format",
+    "raw-binary",
+    "--architecture",
+    "8051",
+    "--entry-point",
+    "0x4000",
+    "--provider",
+    "ghidra",
+    "--format",
+    "json"
+  ],
+  "returncode": 1,
+  "result": {
+    "code": "VALIDATION_ERROR",
+    "message": "REA could not read the command arguments. Check the named argument and its expected type, then try again.",
+    "fieldErrors": [
+      {
+        "code": "invalid_value",
+        "missing": false,
+        "path": "architecture",
+        "expected": "",
+        "received": "",
+        "message": "Invalid option: expected one of \"6502\"|\"x86\"|\"x86_64\"|\"arm\"|\"arm64\"|\"m68k\""
+      }
+    ]
+  },
+  "stdout_file": "rea-raw-8051.stdout",
+  "stderr_file": "rea-raw-8051.stderr"
+}

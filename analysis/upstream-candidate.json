@@ -1,0 +1,31 @@
+{
+  "schema": "openmitrastar.rtl8192ee-public-candidate/v1",
+  "upstream_commit": "02665d2016e1360cd2135998f36cfa303b5be6e1",
+  "upstream_blob_path": "rtlwifi/rtl8192eu_nic.bin",
+  "sha256": "b15bc955fba2fc3abc093affe62c9f7284a0b84d4f13f8ce55366488dc9aad8b",
+  "bytes": 32286,
+  "header_bytes": 32,
+  "payload_bytes": 32254,
+  "signature": "0x92e1",
+  "category": 16,
+  "function": 0,
+  "version": 35,
+  "subversion": 7,
+  "revision": 23052,
+  "ramcodesize": 32254,
+  "ramcodesize_matches_payload": true,
+  "padding_to_dword": 2,
+  "timestamp_literal_bytes": [
+    17,
+    16,
+    16,
+    70
+  ],
+  "whence_url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/firmware/linux-firmware/+/02665d2016e1360cd2135998f36cfa303b5be6e1/WHENCE?format=TEXT",
+  "whence_record": "Driver: rtl8192ee - Realtek 802.11n WLAN driver for RTL8192EE\n\nInfo: Initial version taken from Realtek version\n      rtl_92ce_92se_92de_8723ae_88ee_8723be_92ee_linux_mac80211_0017.1224.2013\n      Updated Jan. 14, 2015 with file added by Realtek to\n      http://github.com/lwfinger/rtlwifi_new.git.\n      Same firmware rtl8192eu_nic.bin so just link them\nLink: rtlwifi/rtl8192eefw.bin -> rtl8192eu_nic.bin\n\nLicence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.\nSPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt\n\n--------------------------------------------------------------------------\n",
+  "declared_for_rtl8192ee_by_alias": true,
+  "fits_current_0x8000_allocation": true,
+  "hardware_accessed": false,
+  "installed": false,
+  "limitation": "Vendor-declared alias and size checks do not establish runtime equivalence with this HGW500."
+}

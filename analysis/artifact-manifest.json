@@ -1,0 +1,285 @@
+{
+  "schema": "openmitrastar.firmware-analysis-artifacts/v1",
+  "files": [
+    {
+      "path": "analyze_public_candidate.py",
+      "bytes": 3907,
+      "sha256": "5215ae878058dc3bc0b450f8e699d476f1b2682ff6831df674b262659b89fcba"
+    },
+    {
+      "path": "compare_mailboxes.py",
+      "bytes": 2404,
+      "sha256": "b88742e8589312a0e87cb26d8a6df9fb4d455a092197682c603a38179a74d9bd"
+    },
+    {
+      "path": "compare_upstream.py",
+      "bytes": 2333,
+      "sha256": "614f305226cb9402853abeffa708130395166a675beffb6b8fc744d7ab7ef179"
+    },
+    {
+      "path": "ExportRTL8192EE.java",
+      "bytes": 5272,
+      "sha256": "0523b62ec3825096eb9d14c35250f803c8f0b930bfea8238b3e0e20fd6d2b32d"
+    },
+    {
+      "path": "firmware-header.json",
+      "bytes": 2115,
+      "sha256": "b59870ef0106bf387dcb779b2bc7e79c9f839b84c241fbab3d91e292f88db4cc"
+    },
+    {
+      "path": "function-464d.c",
+      "bytes": 665,
+      "sha256": "f2f5fe1ef8e53ee961890510c0dfc88119cbbf05119b1b5a06a8cd1de48130d7"
+    },
+    {
+      "path": "function-4908.c",
+      "bytes": 1842,
+      "sha256": "aa7bbe6fdc0dc061253289131bf95cda3f2781ab497f5bb7f203276027849a4f"
+    },
+    {
+      "path": "function-494d.c",
+      "bytes": 1854,
+      "sha256": "3d46f693593ce3c467a3b755b43bd1c8508f8914ba28ea7913009108ce1de99f"
+    },
+    {
+      "path": "function-4bf8.c",
+      "bytes": 614,
+      "sha256": "989fe769c26a8a71d3da962b450992e39ba5a9f2c4b37718b5535d616630cb53"
+    },
+    {
+      "path": "function-4fce.c",
+      "bytes": 333,
+      "sha256": "3a89c137bb392023344671e5e9073ce98041e455689f6a9da4041447e525f367"
+    },
+    {
+      "path": "function-5ff5.c",
+      "bytes": 154,
+      "sha256": "b37c0e7b8241fbcade6d69b843aca174734fbcaeba56c4722052841159de3f86"
+    },
+    {
+      "path": "function-5ff6.c",
+      "bytes": 734,
+      "sha256": "1657a67fbacb211ec77c474fe15e0d3f1078eff7c4913796a78addeca18fc9c1"
+    },
+    {
+      "path": "function-6039.c",
+      "bytes": 1564,
+      "sha256": "f00fa0f6eb1bd61fd8fbed12518af86b8b30c600489c8eead1269be8478ce12d"
+    },
+    {
+      "path": "function-7028.c",
+      "bytes": 154,
+      "sha256": "7bd05b761982a52f1d34a0e021580ca6ff665b8cdd83f04bf754eca6131e01be"
+    },
+    {
+      "path": "ghidra-instructions.tsv",
+      "bytes": 166097,
+      "sha256": "4e6d392927f365978a6cc6cef962771ed53619968c7db1c8f384238dee89ad49"
+    },
+    {
+      "path": "ghidra-inventory.tsv",
+      "bytes": 3788,
+      "sha256": "238fc3947972f08ab1c1a1a54c02927716ac5d62e9eb8ca74c39b8a3e06e89d7"
+    },
+    {
+      "path": "ghidra-memory.txt",
+      "bytes": 711,
+      "sha256": "91ff7c17b3afec280f93abd25b501b08bcb71de08b992f15557257994e11f1bd"
+    },
+    {
+      "path": "ghidra-native-8051.json",
+      "bytes": 863,
+      "sha256": "904fb4a25006a71685bc6ee11514453b306ceb4f8d3cb82b45f664b2ad2f6d10"
+    },
+    {
+      "path": "ghidra-native-8051.stderr",
+      "bytes": 178,
+      "sha256": "85f9902c4f8155abd8df72486ef0b1ea3ab7d4136434571fa6ae9fe4b238a8db"
+    },
+    {
+      "path": "ghidra-native-8051.stdout",
+      "bytes": 6940,
+      "sha256": "03e3fa80c7391671bb63a38f92eb5e4bfe86ea7034156b6556129bc3b9da119d"
+    },
+    {
+      "path": "ghidra-references.tsv",
+      "bytes": 67297,
+      "sha256": "83b7018df2f9231c704d5865f4bd130c5620c6ab847558b5873a356cd430daa5"
+    },
+    {
+      "path": "inspect_upstream_candidate.py",
+      "bytes": 2426,
+      "sha256": "968eecc4cc2d2a79657522a9c5c94453c0e37eab5a0f3b1bd90bdf048b71f526"
+    },
+    {
+      "path": "mailbox-comparison.json",
+      "bytes": 2922,
+      "sha256": "af50d7f6fc4147460dd1416f4ecc92397091e570d8a3c75b77bd6394fb2c9941"
+    },
+    {
+      "path": "public-candidate/function-4937.c",
+      "bytes": 2315,
+      "sha256": "c7713cc99a6e039e60c29114296369cc25a81dc9f39e2d52872aa65f9888ac66"
+    },
+    {
+      "path": "public-candidate/function-6ff0.c",
+      "bytes": 154,
+      "sha256": "3b22176a9b2e1f353cebc86c5bfb5bdd6a596016db08d0e76690b1761c92594c"
+    },
+    {
+      "path": "public-candidate/function-6ff1.c",
+      "bytes": 684,
+      "sha256": "2125736f4bfa7a11211dba3b39b5710d2c872129d4dcbbaf05431d244ba653e1"
+    },
+    {
+      "path": "public-candidate/function-702c.c",
+      "bytes": 1570,
+      "sha256": "86fe778b0428652b6653b685d1f858c43fa7434077bfb90be524c7ad5c6145ce"
+    },
+    {
+      "path": "public-candidate/function-8094.c",
+      "bytes": 154,
+      "sha256": "265022db6ad7ebae2554adde87f2bfac1a75dee890bc7ab1a7f6213e50e3d350"
+    },
+    {
+      "path": "public-candidate/ghidra-instructions.tsv",
+      "bytes": 193657,
+      "sha256": "3a340a3c85f984501da4f77612fa6a4c3ff8c16a467c02d8ccd23f1d8e4ad09d"
+    },
+    {
+      "path": "public-candidate/ghidra-inventory.tsv",
+      "bytes": 8966,
+      "sha256": "94ad588288c393400933ee21f33bc2efbd6a5b4294d46577b09e835c1fbf8fbc"
+    },
+    {
+      "path": "public-candidate/ghidra-memory.txt",
+      "bytes": 715,
+      "sha256": "081d1338ea304167ea738412ee7f372612babc84cf133157fc03a05ec52da9bc"
+    },
+    {
+      "path": "public-candidate/ghidra-references.tsv",
+      "bytes": 89795,
+      "sha256": "ce220a91a6434708a867002f75876810c15ce7504f16042e06257ede6db61256"
+    },
+    {
+      "path": "public-candidate/ghidra.stderr",
+      "bytes": 178,
+      "sha256": "85f9902c4f8155abd8df72486ef0b1ea3ab7d4136434571fa6ae9fe4b238a8db"
+    },
+    {
+      "path": "public-candidate/ghidra.stdout",
+      "bytes": 7622,
+      "sha256": "f4124e2ca59ffb7cb382502316e8e92feaac72e9614ca5b8fcf52e38ad9b43e7"
+    },
+    {
+      "path": "public-candidate/verification.json",
+      "bytes": 1717,
+      "sha256": "9335b2537f21b833809f9b09f9cb68c8421983cff6358c593e02b51562b93312"
+    },
+    {
+      "path": "rea-artifact.json",
+      "bytes": 809,
+      "sha256": "b71be0e586085de5ea76ed4b66fbaddd0d030027e1cbeb9d135d39f0defa957c"
+    },
+    {
+      "path": "rea-artifact.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rea-artifact.stdout",
+      "bytes": 437,
+      "sha256": "8fd396f1ad9ebf0414374768a6b8dcefe62cf0303693dd33eb2ff7ad6cd3db28"
+    },
+    {
+      "path": "rea-entropy.json",
+      "bytes": 3574,
+      "sha256": "6f20de430472d0923fcfda606146976abdeb1c1782994fd41aad4854db768fb9"
+    },
+    {
+      "path": "rea-entropy.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rea-entropy.stdout",
+      "bytes": 2370,
+      "sha256": "f0c7c40d4832e0f4165065ddabe839e840a0753c72580808c0790096d101d20f"
+    },
+    {
+      "path": "rea-raw-8051.json",
+      "bytes": 873,
+      "sha256": "6b23dc8a8e4a36fb0966df128bcbb56f86df4b9f86f11e9ac6e13df803c18d28"
+    },
+    {
+      "path": "rea-raw-8051.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rea-raw-8051.stdout",
+      "bytes": 426,
+      "sha256": "c7d593c476420585ad52e12cfc447986d85544a5069623420f1e7b5f663a650f"
+    },
+    {
+      "path": "rea-regions.json",
+      "bytes": 4337,
+      "sha256": "540b943670d7c3a5fd9e28fe02f13a918b50eec5fcf2e5ecef96bcb5249ea2ea"
+    },
+    {
+      "path": "rea-regions.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rea-regions.stdout",
+      "bytes": 3083,
+      "sha256": "dd73dbb487623f56aa7d66466b0a0bb4c3b29862e53642d4ae240984229d12dd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5122,
+      "sha256": "881db101252dc793f2df08e73c808c49d4524ad794e5d11af1d63d383e5e8866"
+    },
+    {
+      "path": "run_analysis.py",
+      "bytes": 5095,
+      "sha256": "e2ceb7f7d92ac66216c9748c8d3f7be6d8f7a0d791ccd84b703cdea842589c46"
+    },
+    {
+      "path": "SeedPublicRTL8192EE.java",
+      "bytes": 1463,
+      "sha256": "2473f6cf0c6d81acb4ac66051f3bd2ab448e352793790727931bc3500dd89877"
+    },
+    {
+      "path": "SeedRTL8192EE.java",
+      "bytes": 1006,
+      "sha256": "35f410d9138aceb9e0aae9e74a5a75204ff5e6b392d28b0b7ab3ecd2b28cd3a5"
+    },
+    {
+      "path": "source-preservation.json",
+      "bytes": 213,
+      "sha256": "a081d0f39f2d7e610342082058b908ae914808b976a6ba4c0bfb5078fabd5672"
+    },
+    {
+      "path": "upstream-candidate.json",
+      "bytes": 1665,
+      "sha256": "234af4ba0ec93324f639d638394a528da7a43d882ef908cb779392ddbca262b1"
+    },
+    {
+      "path": "upstream-comparison.json",
+      "bytes": 1071,
+      "sha256": "ebc62fd935fd32ad6c57620d6f4a3b7cb83f8dd3f6965db2cffdb7ce0ab9effc"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 3594,
+      "sha256": "719a5dbd1d8dbc89017715506b7f6b7804d4f1b2573be97c36ea3d2afebdb67e"
+    },
+    {
+      "path": "verify_export.py",
+      "bytes": 2717,
+      "sha256": "17e20f7a3824171696ed868595e0baeddd682cfa4dc2b1447a6fe74fedb6439d"
+    }
+  ]
+}

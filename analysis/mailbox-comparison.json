@@ -1,0 +1,97 @@
+{
+  "schema": "openmitrastar.rtl8192ee-mailbox-observations/v1",
+  "scope": "Exact MOV DPTR immediate byte patterns, with decoded-instruction status independently checked. Access through computed addresses and ROM helpers is outside this projection.",
+  "driver_register_source": "/workspace/OpenMitraStar/HGW500/drivers/realtek/kernel/radio2g-linux-7.3-v1/overlay/drivers/net/wireless/realtek/rtlwifi/rtl8192ee/reg.h",
+  "firmwares": {
+    "installed_19_0": {
+      "HMETFR": {
+        "register_address": "0x1cc",
+        "observations": [
+          {
+            "file_offset": 27912,
+            "code_address": "0xace8",
+            "bytes": "9001cc",
+            "decoded_instruction": "MOV DPTR,#0x1cc",
+            "native_instruction_verified": true
+          },
+          {
+            "file_offset": 28172,
+            "code_address": "0xadec",
+            "bytes": "9001cc",
+            "decoded_instruction": "MOV DPTR,#0x1cc",
+            "native_instruction_verified": true
+          }
+        ]
+      },
+      "HMEBOX_0": {
+        "register_address": "0x1d0",
+        "observations": [
+          {
+            "file_offset": 28236,
+            "code_address": "0xae2c",
+            "bytes": "9001d0",
+            "decoded_instruction": "MOV DPTR,#0x1d0",
+            "native_instruction_verified": true
+          }
+        ]
+      },
+      "C2HEVT_MSG_NORMAL": {
+        "register_address": "0x1a0",
+        "observations": []
+      },
+      "C2HEVT_CLEAR": {
+        "register_address": "0x1af",
+        "observations": []
+      }
+    },
+    "upstream_35_7": {
+      "HMETFR": {
+        "register_address": "0x1cc",
+        "observations": [
+          {
+            "file_offset": 4461,
+            "code_address": "0x514d",
+            "bytes": "9001cc",
+            "decoded_instruction": null,
+            "native_instruction_verified": false
+          },
+          {
+            "file_offset": 12769,
+            "code_address": "0x71c1",
+            "bytes": "9001cc",
+            "decoded_instruction": "MOV DPTR,#0x1cc",
+            "native_instruction_verified": true
+          },
+          {
+            "file_offset": 12974,
+            "code_address": "0x728e",
+            "bytes": "9001cc",
+            "decoded_instruction": "MOV DPTR,#0x1cc",
+            "native_instruction_verified": true
+          }
+        ]
+      },
+      "HMEBOX_0": {
+        "register_address": "0x1d0",
+        "observations": [
+          {
+            "file_offset": 13029,
+            "code_address": "0x72c5",
+            "bytes": "9001d0",
+            "decoded_instruction": "MOV DPTR,#0x1d0",
+            "native_instruction_verified": true
+          }
+        ]
+      },
+      "C2HEVT_MSG_NORMAL": {
+        "register_address": "0x1a0",
+        "observations": []
+      },
+      "C2HEVT_CLEAR": {
+        "register_address": "0x1af",
+        "observations": []
+      }
+    }
+  },
+  "hardware_accessed": false
+}

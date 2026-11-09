@@ -1,0 +1,67 @@
+{
+  "schema": "openmitrastar.rtl8192ee-firmware-inspection/v1",
+  "source": "/workspace/build/core-r1-product-r3/root/lib/firmware/rtlwifi/rtl8192eefw.bin",
+  "reference": "/workspace/build/root-installed/lib/firmware/rtlwifi/rtl8192eefw.bin",
+  "copies_identical": true,
+  "bytes": 31818,
+  "sha256": "c6e5beeeb2a716ce417a9ede5974d0876b18ebf0368c195da8a181f6ba6d9b4b",
+  "header_bytes": 32,
+  "signature": "0x92e1",
+  "category": 16,
+  "function": 0,
+  "version": 19,
+  "subversion": 0,
+  "timestamp_literal_bytes": [
+    3,
+    49,
+    17,
+    64
+  ],
+  "ramcodesize": 31786,
+  "revision": 4280,
+  "payload_sha256": "7dce1f5ec5c45ca4634873051131e1d4913a334d9f54fd9271f5a4d82ce03179",
+  "padding_bytes_to_dword": 2,
+  "payload_end_exclusive_at_base_4000": "0xbc2a",
+  "architecture": "8051",
+  "native_ghidra_language": "8051:BE:16:default",
+  "code_load_base": "0x4000",
+  "code_base_evidence": "Firmware vectors and 8051 interrupt prologues agree at this base. Host firmware download aperture is separately 0x1000.",
+  "vectors": [
+    {
+      "code_address": "0x4000",
+      "file_offset": 32,
+      "jump_target": "0x494d",
+      "target_file_offset": 2413,
+      "target_bytes": "0249080041a5de0041a5df0041a5e00041a5e70041a5e800"
+    },
+    {
+      "code_address": "0x4003",
+      "file_offset": 35,
+      "jump_target": "0x5ff5",
+      "target_file_offset": 8213,
+      "target_bytes": "32c0e0c0f0c083c082c0d075d000c000c001c002c003c004"
+    },
+    {
+      "code_address": "0x4013",
+      "file_offset": 51,
+      "jump_target": "0x6039",
+      "target_file_offset": 8281,
+      "target_bytes": "c0e0c0f0c083c082c0d075d000c000c001c002c003c004c0"
+    },
+    {
+      "code_address": "0x4023",
+      "file_offset": 67,
+      "jump_target": "0x7028",
+      "target_file_offset": 12360,
+      "target_bytes": "32e4ffe4fe74932ff582e4349bf583e054fef075f010ef90"
+    },
+    {
+      "code_address": "0x4043",
+      "file_offset": 99,
+      "jump_target": "0x5ff6",
+      "target_file_offset": 8214,
+      "target_bytes": "c0e0c0f0c083c082c0d075d000c000c001c002c003c004c0"
+    }
+  ],
+  "hardware_accessed": false
+}

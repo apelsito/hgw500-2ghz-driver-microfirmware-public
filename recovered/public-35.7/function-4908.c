@@ -1,0 +1,13 @@
+/* Ghidra pseudocode derived from the original 8051 firmware. */
+/* Address CODE:4908, function FUN_CODE_4908 */
+
+void FUN_CODE_4908(undefined1 *param_1,undefined1 param_2,undefined1 param_3,undefined1 param_4)
+
+{
+  *param_1 = param_4;
+  param_1[1] = param_3;
+  param_1[2] = param_2;
+  return;
+}
+
+

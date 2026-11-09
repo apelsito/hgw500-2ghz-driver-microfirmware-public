@@ -1,0 +1,17 @@
+{
+  "schema": "openmitrastar.rtl8192ee-full-pseudocode-export/v1",
+  "date": "2026-11-03",
+  "tool": "Ghidra 12.1.3",
+  "mode": "existing_projects_read_only_noanalysis",
+  "installed_functions": 138,
+  "installed_completed": 138,
+  "public_functions": 335,
+  "public_completed": 335,
+  "source_unchanged": true,
+  "hardware_accessed": false,
+  "limits": [
+    "Pseudocode of discovered functions only. Undecoded bytes and absent ROM remain unresolved.",
+    "Instruction byte coverage is recorded independently in analysis verification reports."
+  ],
+  "tool_command": "analyzeHeadless PROJECT NAME -process PROGRAM -readOnly -noanalysis -postScript ExportAllRTL8192EE.java OUTPUT -max-cpu 1"
+}

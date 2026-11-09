@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/opt/engineering/tools/ghidra_12.1.3_PUBLIC/support/analyzeHeadless",
+    "/workspace/build/evidence/hgw500-rtl8192ee-20261103",
+    "rtl8192ee-native",
+    "-import",
+    "/workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192ee-code.bin",
+    "-processor",
+    "8051:BE:16:default",
+    "-cspec",
+    "default",
+    "-loader",
+    "BinaryLoader",
+    "-loader-baseAddr",
+    "0x4000",
+    "-scriptPath",
+    "/workspace/OpenMitraStar/HGW500/out/rtl8192ee-20261103/firmware-rea",
+    "-preScript",
+    "SeedRTL8192EE.java",
+    "-postScript",
+    "ExportRTL8192EE.java",
+    "/workspace/OpenMitraStar/HGW500/out/rtl8192ee-20261103/firmware-rea",
+    "-analysisTimeoutPerFile",
+    "180",
+    "-max-cpu",
+    "2"
+  ],
+  "returncode": 0,
+  "result": null,
+  "stdout_file": "ghidra-native-8051.stdout",
+  "stderr_file": "ghidra-native-8051.stderr"
+}

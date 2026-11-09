@@ -1,0 +1,123 @@
+{
+  "command": [
+    "/usr/local/bin/rea",
+    "inspect-firmware-regions",
+    "/workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192eefw.bin",
+    "--format",
+    "json"
+  ],
+  "returncode": 0,
+  "result": {
+    "evidence_id": "ev_1af3c80014526369abee3934e58cf7a91791dcec97eb1e6cf53c5f62899f9ca4",
+    "subject": {
+      "name": "rtl8192eefw.bin",
+      "digest": {
+        "sha256": "c6e5beeeb2a716ce417a9ede5974d0876b18ebf0368c195da8a181f6ba6d9b4b"
+      },
+      "local_path": "/workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192eefw.bin",
+      "format": "file",
+      "architecture": null
+    },
+    "provider": {
+      "id": "binwalk",
+      "name": "Binwalk",
+      "version": "3.1.0"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_firmware_regions",
+    "parameters": {
+      "path": "/workspace/build/evidence/hgw500-rtl8192ee-20261103/rtl8192eefw.bin"
+    },
+    "raw_result": {
+      "report": [
+        {
+          "Analysis": {
+            "file_path": "/tmp/rea-firmware-EF16fF/firmware.bin",
+            "file_map": [],
+            "extractions": {}
+          }
+        }
+      ],
+      "execution": {
+        "stdout": {
+          "text": "",
+          "bytes": 0,
+          "observedBytes": 0
+        },
+        "stderr": {
+          "text": "",
+          "bytes": 0,
+          "observedBytes": 0
+        },
+        "exit_code": 0,
+        "signal": null,
+        "command": "/workspace/build/.local/tools/binwalk-3.1.0/bin/binwalk",
+        "args": [
+          "--quiet",
+          "--search-all",
+          "--threads",
+          "1",
+          "--log",
+          "/tmp/rea-firmware-EF16fF/report.json",
+          "/tmp/rea-firmware-EF16fF/firmware.bin"
+        ],
+        "resource_limiter": "/usr/bin/prlimit"
+      },
+      "version_execution": {
+        "stdout": {
+          "text": "binwalk 3.1.0\n",
+          "bytes": 14,
+          "observedBytes": 14
+        },
+        "stderr": {
+          "text": "",
+          "bytes": 0,
+          "observedBytes": 0
+        },
+        "exit_code": 0,
+        "signal": null,
+        "command": "/workspace/build/.local/tools/binwalk-3.1.0/bin/binwalk",
+        "args": [
+          "--version"
+        ],
+        "resource_limiter": "/usr/bin/prlimit"
+      }
+    },
+    "normalized_result": {
+      "analysis_timeout_ms": 120000,
+      "engine": {
+        "name": "binwalk",
+        "version": "3.1.0",
+        "executable_path": "/workspace/build/.local/tools/binwalk-3.1.0/bin/binwalk",
+        "executable_sha256": "ccdc6af333dcd81734ace32c61eb8d30176819d82f2f85760d1e3659becbf73f",
+        "source_revision": null,
+        "worker_count": 1
+      },
+      "input_size": 31818,
+      "regions": [],
+      "coverage": "signature_scan"
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Signature matches and reported sizes do not establish partition validity, encryption or runtime mappings. Binwalk may infer unknown lengths before emitting its report.",
+      "Only Linux is supported by this integration. One worker, inherited per-process address-space/file-size/CPU limits and a deadline constrain execution; staging byte and entry budgets are polled and may transiently overshoot. Limits are not aggregate process-memory or filesystem quotas.",
+      "Unblob's default sandbox and skip rules remain enabled. Missing external extractors, unknown chunks, encrypted chunks and depth limits yield partial coverage. Extracted code is never executed; only regular files are published, without executable permission bits.",
+      "extraction_gaps lists regions that were carved or left unextracted and names extractor dependencies the producer reported as missing. A listed gap does not mean the target is corrupt or that a retained region is empty.",
+      "The actual launcher executable is hashed. Interpreter, shared libraries and installed Python package dependencies are not independently attested; source revision remains unknown for caller-supplied builds."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "file-offset-range",
+        "start": 0,
+        "end": 31818
+      }
+    ],
+    "evidence_links": []
+  },
+  "stdout_file": "rea-regions.stdout",
+  "stderr_file": "rea-regions.stderr"
+}

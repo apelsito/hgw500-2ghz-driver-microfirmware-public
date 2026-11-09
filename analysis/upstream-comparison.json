@@ -1,0 +1,17 @@
+{
+  "schema": "openmitrastar.rtl8192ee-upstream-comparison/v1",
+  "hardware_accessed": false,
+  "status": "DIFFERENT_UPSTREAM_BLOB",
+  "repository": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/firmware/linux-firmware",
+  "upstream_commit": "02665d2016e1360cd2135998f36cfa303b5be6e1",
+  "upstream_blob_path": "rtlwifi/rtl8192eu_nic.bin",
+  "blob_url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/firmware/linux-firmware/+/02665d2016e1360cd2135998f36cfa303b5be6e1/rtlwifi/rtl8192eu_nic.bin?format=TEXT",
+  "local_path": "/workspace/build/core-r1-product-r3/root/lib/firmware/rtlwifi/rtl8192eefw.bin",
+  "local_bytes": 31818,
+  "upstream_bytes": 32286,
+  "local_sha256": "c6e5beeeb2a716ce417a9ede5974d0876b18ebf0368c195da8a181f6ba6d9b4b",
+  "upstream_sha256": "b15bc955fba2fc3abc093affe62c9f7284a0b84d4f13f8ce55366488dc9aad8b",
+  "byte_equal": false,
+  "alias_source_commit": "b986edd80647b68af068ebaaa1323d2b046c5435",
+  "comparison_scope": "Current main snapshot in the kernel.org Git mirror. No firmware installation or body replacement."
+}

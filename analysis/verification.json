@@ -1,0 +1,159 @@
+{
+  "schema": "openmitrastar.rtl8192ee-ghidra-byte-verification/v1",
+  "status": "PASS_EXPORTED_INSTRUCTIONS_MATCH_ORIGINAL",
+  "source_sha256": "c6e5beeeb2a716ce417a9ede5974d0876b18ebf0368c195da8a181f6ba6d9b4b",
+  "original_bytes": 31818,
+  "payload_bytes": 31786,
+  "functions_observed": 138,
+  "instructions_verified": 5217,
+  "unique_instruction_bytes": 9269,
+  "payload_instruction_coverage_fraction": 0.291606,
+  "references_to_absent_lower_CODE": [
+    {
+      "from": "CODE:4b37",
+      "to": "CODE:3e87",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:4bf0",
+      "to": "CODE:3e87",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:4fd2",
+      "to": "CODE:3e0c",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:584c",
+      "to": "CODE:3e87",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:5856",
+      "to": "CODE:08d6",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:5ad8",
+      "to": "CODE:369d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6378",
+      "to": "CODE:0847",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6530",
+      "to": "CODE:3e87",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:682a",
+      "to": "CODE:0663",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:69b0",
+      "to": "CODE:37ad",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:69b9",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:69d7",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:69e3",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:69ea",
+      "to": "CODE:38a4",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:69f9",
+      "to": "CODE:37ad",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a04",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a1d",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a34",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a3b",
+      "to": "CODE:37ad",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a44",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a63",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a6f",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a76",
+      "to": "CODE:38a4",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a82",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:6a89",
+      "to": "CODE:38a4",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:8ff5",
+      "to": "CODE:086d",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:8ffc",
+      "to": "CODE:38a4",
+      "type": "UNCONDITIONAL_CALL"
+    },
+    {
+      "from": "CODE:9faa",
+      "to": "CODE:08d6",
+      "type": "UNCONDITIONAL_CALL"
+    }
+  ],
+  "references_beyond_loaded_payload": [],
+  "scope": "Selected entry-point seeded static Ghidra analysis. Undecoded bytes may be code or data. Lower CODE region is absent and may contain mask-ROM routines.",
+  "architecture": "8051:BE:16:default",
+  "code_base": "0x4000",
+  "hardware_accessed": false,
+  "firmware_modified": false
+}

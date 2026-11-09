@@ -1,0 +1,14 @@
+{
+  "code": "VALIDATION_ERROR",
+  "message": "REA could not read the command arguments. Check the named argument and its expected type, then try again.",
+  "fieldErrors": [
+    {
+      "code": "invalid_value",
+      "missing": false,
+      "path": "architecture",
+      "expected": "",
+      "received": "",
+      "message": "Invalid option: expected one of \"6502\"|\"x86\"|\"x86_64\"|\"arm\"|\"arm64\"|\"m68k\""
+    }
+  ]
+}
